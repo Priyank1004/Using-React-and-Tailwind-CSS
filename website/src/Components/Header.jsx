@@ -9,7 +9,7 @@ const Header = () => {
     <div className='bg-[#2699fb] p-4'> 
         <div className='max-w-[1240px] py-[12px] flex justify-between items-center mx-auto'>
             <div className='text-3xl font-bold'>
-                PriyankPatel
+                Logo
             </div>
             {
                 toggle ? 

@@ -8,15 +8,15 @@ const Banner = () => {
                 <div className='text-xl md:text-3xl md:p-[8px]'>Learn With Us</div>
                 <div className='text-white text-5xl md:text-[60px] md:p-[8px]'>Grow with us.</div>
                 <div className='text-[20px] md:text-[50px] text-white md:p-[8px]'>
-                    Learn <ReactTyped
-                         className='md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2'
+                    Learn<ReactTyped
+                         className='md:text-5xl sm:text-4xl text-xl font-bold md:pl-2 pl-2'
                          strings={['Digital Makerting', 'Web Development', 'Ethical Hacking']}
                          typeSpeed={120}
                          backSpeed={140}
                          loop
                     />
                 </div>
-                <button className='bg-black text-white p-3 rounded'>Get started</button>
+                <button className='bg-black text-white p-3 rounded mt-4'>Get started</button>
             </div>
         </div>
     )
